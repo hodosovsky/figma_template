@@ -1,0 +1,14 @@
+.mainHead{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 105px;
+color: #811FF1;
+
+}
+
+section {
+    display: flex;
+    
+}
