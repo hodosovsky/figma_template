@@ -27,7 +27,7 @@ section {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #1C1628;
-    margin-bottom: 86px;
+    
 
 
 
@@ -45,7 +45,9 @@ article {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #1C1628;
-    flex: 520px;
+   
+    
+
 
 
 }
@@ -53,23 +55,25 @@ article {
 
 
 article:nth-of-type(1) {
-    margin-left: 120px;
+    
+    margin: 86px 0 0 120px;
     flex: 520px;
 }
 
 article:nth-of-type(2) {
-    margin-left: 60px;
+    margin:  86px 0 0 60px;
     flex: 520px;
 }
 
 article:nth-of-type(3) {
-    margin-left: 60px;
+    
+    margin: 86px 285.63px 0 402.04px;
     flex: 520px;
 }
 
 
 article:nth-of-type(4) {
-    margin: 880px 580px 120px 120px;
+    margin: 240px 580px 120px 120px;
     flex: 1220px;
     font-family: 'Roboto';
     font-style: normal;
@@ -89,3 +93,4 @@ article:nth-of-type(4) {
 .autograph {
     color: #811FF1;
 }
+
