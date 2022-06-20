@@ -31,10 +31,11 @@ section {
 
 
 
+
+
 }
 
 article {
-    width: 520px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -44,6 +45,7 @@ article {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #1C1628;
+    flex: 520px;
 
 
 }
@@ -52,12 +54,38 @@ article {
 
 article:nth-of-type(1) {
     margin-left: 120px;
+    flex: 520px;
 }
 
 article:nth-of-type(2) {
     margin-left: 60px;
+    flex: 520px;
 }
 
 article:nth-of-type(3) {
     margin-left: 60px;
+    flex: 520px;
+}
+
+
+article:nth-of-type(4) {
+    margin: 880px 580px 120px 120px;
+    flex: 1220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.01em;
+    color: #BDBDBD;
+    text-align:left;
+    text-transform:none;
+
+}
+
+
+.autograph {
+    color: #811FF1;
 }
